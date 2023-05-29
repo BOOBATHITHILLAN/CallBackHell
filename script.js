@@ -1,5 +1,5 @@
-
-    let countdownElement = document.getElementById("countdown");
+document.addEventListener("DOMContentLoaded", function () {
+    let countdownElement = document.getElementById("countdown");    
     
     setTimeout(()=> {
       countdownElement.innerText = "10";
@@ -45,5 +45,5 @@
         }, 1000);
       }, 1000);
     }, 1000);
-  ;
+});
   
